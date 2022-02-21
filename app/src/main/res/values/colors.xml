@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#014b92</color>
+    <color name="colorBPush">#5D7891</color>
+    <color name="colorPrimaryDark">#013766</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWPush">#808080</color>
+    <color name="colorButtons">#046ed4</color>
+    <color name="colorBGlight">#9cd4ff</color>
+    <color name="Black">#000000</color>
+
+</resources>

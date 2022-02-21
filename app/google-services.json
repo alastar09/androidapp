@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161165997010",
+    "firebase_url": "https://biis-sale.firebaseio.com",
+    "project_id": "biis-sale",
+    "storage_bucket": "biis-sale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161165997010:android:0170389a1fa236f4b20e0b",
+        "android_client_info": {
+          "package_name": "ru.biis.biissale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161165997010-s9j8uepve5r4s3qdpricec6bg2b70b3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy1TufSwlwq2D5JOE8yl8VqxjdrN0y8eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161165997010-s9j8uepve5r4s3qdpricec6bg2b70b3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

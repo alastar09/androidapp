@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_req"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ui.main.PlaceholderFragmentList">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/pofil"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <Button
+            android:id="@+id/sendzapros"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:strokeColor="@color/colorPrimary"
+            android:textColor="@color/colorBGlight"
+            android:background="@drawable/button_blue"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/refresh" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/zapros"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/colorAccent"
+        android:textCursorDrawable="@drawable/cursor"
+        android:padding="20px"
+        android:hint="@string/name_company"
+        android:textColor="#000"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="@+id/section_label" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/message_company"
+    />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:focusableInTouchMode="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:background="@color/colorAccent"
+        android:padding="20px"
+        android:hint="E-mail"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/colorAccent"
+        android:textCursorDrawable="@drawable/cursor"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:padding="20px"
+        android:hint="@string/tell"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/colorAccent"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:padding="20px"
+        android:hint="@string/addres"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="25dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/message_pofile"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/feetback" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="8 800 234 85 85" />
+
+            <ImageButton
+                android:id="@+id/feedback"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_phone_icon"
+                android:padding="10dp"
+                android:background="@drawable/shape_send_btn"
+             />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerCat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

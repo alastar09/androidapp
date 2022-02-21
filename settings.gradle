@@ -1,0 +1,2 @@
+rootProject.name='Biis sale'
+include ':app'

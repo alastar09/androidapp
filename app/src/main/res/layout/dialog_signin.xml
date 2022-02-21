@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/authTitle"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:scaleType="center"
+        android:text="@string/autoriz"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="4dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:focusable="true"
+        android:contextClickable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="16dp"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor"
+        android:focusable="true"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password"/>
+
+    <Button
+        android:id="@+id/buttonAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:textColor="@color/colorAccent"
+        android:text="@string/sigin" />
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_white"
+        android:text="@string/register" />
+    <Button
+        android:id="@+id/buttonRegSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"
+        android:text="@string/register1" />
+</LinearLayout>

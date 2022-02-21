@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bi-is sale</string>
+    <string name="tab_text_1">Запросы</string>
+    <string name="tab_text_2">Профиль</string>
+    <string name="username">Ваш e-mail</string>
+    <string name="password">Пароль</string>
+    <string name="No_message">Уведомлений нет</string>
+    <string name="data">Дата</string>
+    <string name="sigin">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="register1">Зарегистрироваться</string>
+    <string name="exit">Выход</string>
+    <string name="obnovil_spisok">Список обновлён</string>
+    <string name="refresh">Обновить</string>
+    <string name="you_message">Ваше сообщение</string>
+    <string name="dialog">Диалог</string>
+    <string name="autoriz">Авторизация</string>
+    <string name="pofil">Профиль</string>
+    <string name="name_company">Наименование компании</string>
+    <string name="message_company">Данную информацию увидет клиент, заполните ее внимательно</string>
+    <string name="message_pofile">Изменить категорию приема заявок вы можете на сайте bi-is.ru в своем личном кабинете</string>
+    <string name="tell">Телефон</string>
+    <string name="addres">Адрес</string>
+    <string name="feetback">Телефон обратной связи </string>
+    <string name="no_message1">В ведите сообщение</string>
+    <string name="msg_token_fmt">Сообщение F</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
